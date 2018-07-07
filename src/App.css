@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+.greeting {
+  color: #fff;
+}
+
+.input {
+  margin: 40px 25px;
+  width: 200px;
+
+  border: none;
+  padding: 10px 0;
+  border-bottom: solid 1px #262626;
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 255, 255, 0) 96%,
+    #262626 4%
+  );
+}
