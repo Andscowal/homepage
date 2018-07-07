@@ -3,18 +3,11 @@ import Add from "./Add";
 
 import "./App.css";
 
-const bgUrl = {
-  default: "img4.jpg",
-  pretty: "img3.jpg",
-  hay: "img1.jpg",
-  flower: "img2.jpg"
-};
-
 const bgColors = {
-  default: `url(${bgUrl.default})`,
-  pretty: `url(${bgUrl.pretty})`,
-  hay: `url(${bgUrl.hay})`,
-  flower: `url(${bgUrl.flower})`
+  default: `url("img4.jpg")`,
+  pretty: `url("img3.jpg")`,
+  hay: `url("img1.jpg")`,
+  flower: `url("img2.jpg")`
 };
 
 class App extends Component {
@@ -34,7 +27,7 @@ class App extends Component {
           ]
         ];
       this.setState(() => ({ bgColor: randomColor }));
-    }, 1000);
+    }, 10000);
   }
 
   onType = e => {
