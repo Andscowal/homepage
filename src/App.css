@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: ubuntu;
+}
+
 .App {
   text-align: center;
   font-weight: bold;
@@ -25,4 +29,17 @@
     rgba(255, 255, 255, 0) 96%,
     #262626 4%
   );
+}
+
+.nav {
+  display: block;
+}
+
+.nav li {
+  list-style-type: none;
+  display: inline;
+  margin: auto 20px;
+}
+.nav a {
+  color: #fff;
 }
